@@ -1,0 +1,49 @@
+
+.lava          { 
+  background: url("fire.gif");
+  background-position: center;
+  background-size: contain;
+}
+.wall          { 
+  background: url("wall.jpg");
+  background-position: center;
+  background-size: contain;
+}
+.player { 
+  background: no-repeat url("char.png");
+  background-position: center;
+  background-size: contain; 
+}
+.background    { 
+  background:url("background.png");
+  background-size: contain;
+  table-layout: fixed;
+  border-spacing: 0;   }
+.background td { padding: 0;          }
+
+.actor  { position: absolute;  }
+.coin   { 
+  background: url("coin.png");
+  background-position: center;
+  background-size: contain;
+}
+
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+.lost .player {
+  background: no-repeat url("chardead.png");
+  background-position: center;
+  background-size: contain; 
+}
+.won .player {
+  box-shadow: -4px -7px 8px white, 4px -7px 8px white;
+  background: no-repeat url("charwin.png");
+  background-position: center;
+  background-size: contain;  
+}
