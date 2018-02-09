@@ -1,4 +1,17 @@
 
+/*Website CSS*/
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #eee;
+}
+
+.game {
+  display: block;
+  box-shadow: 1px 1px 2px 3px #ccc;
+}
+
+/* Game CSS */
+
 .lava          { 
   background: url("fire.gif");
   background-position: center;
