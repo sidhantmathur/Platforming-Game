@@ -3,6 +3,10 @@
 body {
   font-family: 'Roboto', sans-serif;
   background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .game {
@@ -11,16 +15,6 @@ body {
   max-width: 600px;
   max-height: 450px;
   position: relative;
-}
-
-.container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.controls {
-  background-color: skyblue;
 }
 
 /* Game CSS */
