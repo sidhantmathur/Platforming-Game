@@ -1,14 +1,3 @@
-var simpleLevelPlan = [
-  "                      ",
-  "                      ",
-  "  x              = x  ",
-  "  x         o o    x  ",
-  "  x @      xxxxx   x  ",
-  "  xxxxx            x  ",
-  "      x!!!!!!!!!!!!x  ",
-  "      xxxxxxxxxxxxxx  ",
-  "                      "
-];
 
 function Level(plan) {
   this.width = plan[0].length;
@@ -85,8 +74,6 @@ function Coin(pos) {
   this.wobble = Math.random() * Math.PI * 2;
 }
 Coin.prototype.type = "coin";
-
-var simpleLevel = new Level(simpleLevelPlan);
 
 function elt(name, className) {
   var elt = document.createElement(name);

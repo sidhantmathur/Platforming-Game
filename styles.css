@@ -15,6 +15,12 @@ body {
 
 .container {
   display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.controls {
+  background-color: skyblue;
 }
 
 /* Game CSS */
@@ -37,7 +43,7 @@ body {
   background-size: contain; 
 }
 
-.background    { 
+.background { 
   background:url("background.png");
   background-size: contain;
   table-layout: fixed;
@@ -52,7 +58,7 @@ body {
   position: absolute;  
 }
 
-.coin   { 
+.coin { 
   background: url("coin.png");
   background-position: center;
   background-size: contain;
